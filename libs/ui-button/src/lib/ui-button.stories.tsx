@@ -8,7 +8,9 @@ export default {
 
 const Template: Story<UiButtonProps> = (args) => <UiButton {...args} />;
 
+const x: number = 'Primary!';
+
 export const Primary = Template.bind({});
 Primary.args = {
-  children: 'Primary',
+  children: x,
 };
